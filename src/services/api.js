@@ -6,7 +6,7 @@ console.log(' Using API_BASE_URL:', API_BASE_URL);
 // Create axios instance with default config
 const api = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 20000, // 30 seconds for PDF generation
+  timeout: 30000, // 30 seconds for PDF generation
   headers: {
     'Content-Type': 'application/json',
   },
